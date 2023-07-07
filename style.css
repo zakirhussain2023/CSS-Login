@@ -133,9 +133,12 @@ form{
     
 }
 
+input[type="password"]{
+	margin-left: 15px;
+}
+
 .para .login .Link{
 	margin-left: 214px;
     display: inline-block;
     margin-top: 50px;
-	text-decoration: none;
 }
