@@ -28,10 +28,27 @@
 	justify-content:center;
 }
 
+
+img{
+	height: 500px;
+	width:300px ;
+	background-size:cover ;
+}
+
+
+.para{
+	padding:35px 0 0 30px;
+	/* position: relative; */
+	margin-top: -77px;
+}
+
 h2{
 	color: rgb(173, 170, 170);
 	font-size: 24px;
 }
+
+
+
 span{
 	font-size: 27px;
     color: black;
@@ -39,17 +56,6 @@ span{
 }
 
 
-.img img{
-	height: 500px;
-	width:300px ;
-	background-size:cover ;
-}
-
-.para{
-	padding:35px 0 0 30px;
-	position: relative;
-	margin-top: -77px;
-}
 
 p{
 	padding-top: 20px;
@@ -58,28 +64,31 @@ p{
 	margin-right:77px;
 }
 
-.logo{
-	height: 200px;
-	width: 100px;
+
+
+
+
+form{
+	margin-left:-18px;
+	
 }
 
 
-.fa-cog::before{
-	content: "\f013";
-	position: absolute;
-	top:48px;
-	left: 35px;
-	right: 0;
-	bottom: 0;
-	font-size: 50px;
-	color:cornsilk
-}
-
-form .details a i{
+form .details  i{
 	font-size: 21px;
     margin-right: 10px;
 	color: lightgray;
 }
+
+
+
+.details {
+    padding: 0px 0 10px 20px;
+    font-size: 30px;
+	display:inline-block;
+    color: lightgray;
+}
+
 
 .fa-envelope-o:before{
 	content: "\f003";
@@ -88,11 +97,7 @@ form .details a i{
     color: lightgray;
 }
 
-.form{
-	padding-top: 30px;
-	line-height: 60px;
 
-}
 
 input{
 	margin-top: 20px;
@@ -105,15 +110,8 @@ input{
 	border-bottom: 1px solid lightgray;
 }
 
-.details {
-    padding: 0px 0 10px 20px;
-    font-size: 30px;
-	display:inline-block;
-    color: lightgray;
-}
-
-form{
-	margin-left:-18px;
+input[type="password"]{
+	margin-left: 15px;
 }
 
 
@@ -121,6 +119,9 @@ form{
 	display: inline-block;
 	margin-top: 60px;
 }
+
+
+
 .btn {
 	border-radius: 25px;
 	margin-left: 200px;
@@ -133,12 +134,37 @@ form{
     
 }
 
-input[type="password"]{
-	margin-left: 15px;
-}
-
 .para .login .Link{
 	margin-left: 214px;
     display: inline-block;
     margin-top: 50px;
 }
+
+.settings{
+	height: 200px;
+	width: 100px;
+}
+
+
+
+.settings .icon{
+	position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 45px;
+	color: cornsilk;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
